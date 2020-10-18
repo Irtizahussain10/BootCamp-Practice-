@@ -1,12 +1,5 @@
-export const Increment = "Increment";
-export const Decrement = "Decrement";
+import { createAction } from "@reduxjs/toolkit";
 
-export const IncrementAction = () => ({
-    type: Increment,
-}
-)
+export const IncrementAction = createAction("Increment");
 
-export const DecrementAction = () => ({
-    type: Decrement,
-}
-)
+export const DecrementAction = createAction("Decrement");
