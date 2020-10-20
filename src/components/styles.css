@@ -1,0 +1,47 @@
+.App{
+    margin-top: 20px;
+    text-align: center;
+}
+table{
+    width: 50pc;
+    border: 1px solid black;
+    position: relative;
+    left: 285px     
+}
+th,td{
+    text-align: center;
+    padding: 8px;
+}
+th,td:hover{
+    background-color: burlywood;
+    border-collapse: collapse;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd){
+    background-color: #ddd;
+}
+th{
+    background-color: rgb(81, 129, 10);
+   color: white;
+} 
+button{
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 50px;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    background-color: rgb(26, 42, 134);
+    color: white;
+    border-radius: 50pc;
+    border: 2px solid ghostwhite;
+}
+button:hover{
+    background-color: rgb(54, 52, 189);
+    color: white;
+    border:  rgb(58, 55, 55);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
